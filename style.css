@@ -9,7 +9,11 @@
 }
 
 body{
-    background-color: black;
+    background-image: url(cj.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* NAVIGATION BAR */
@@ -21,7 +25,7 @@ nav{
 }
 
 .navigation-bar{
-    background-color: rgb(126, 0, 126);
+    background-color: rgb(16, 3, 3) (9, 0, 9);
     padding: 5px;
     margin: 0;
     height: 70px;
@@ -137,9 +141,9 @@ li{
     content: '|';
     position: absolute;
     right: 0;
-    color:red;
+    color: red;
     width: 100%;
-    background-color:black;
+    background-color: black;
     animation: typing 2.5s steps(30) alternate infinite;
 }
 
@@ -171,13 +175,13 @@ li{
 .about-statement p{
     margin-left: 100px;
     font-size: 45px;
-    color: #ffc107;
+    color: red;
     font-style: italic;
 }
 
 .vision-statement h3{
     margin: 15px;
-    color: #ffc107;
+    color: red;
 }
 
 .vision-statement p{
@@ -187,7 +191,7 @@ li{
 
 .mission-statement h3{
     margin: 15px;
-    color: #ffc107;
+    color: red;
 }
 
 .mission-statement p{
@@ -197,7 +201,7 @@ li{
 
 .values-statement h3{
     margin: 15px;
-    color: #ffc107;
+    color: red;
 }
 
 .values-statement p{
@@ -229,7 +233,7 @@ li{
 }
 
 .skill-quote1 q{
-    color: #ffc107;
+    color: red;
     font-size: 40px;
     display: flex;
     justify-content: flex-end;
@@ -242,7 +246,7 @@ li{
 }
 
 .skill-quote2 q{
-    color: #ffc107;
+    color: red;
     font-size: 40px;
     display: flex;
     justify-content: flex-start;
@@ -287,21 +291,21 @@ li{
 fieldset{
     text-align: center;
     margin: auto;
-    border-color: #ffc107;
+    border-color: red;
     width: 1050px;
     border-style: double;
     border-width: 5px;
 }
 
 legend{
-    color: #ffc107;
+    color: red;
     font-size: 30px;
     text-align: left;
 }
 
 /* FOOTER */
 .main-footer{
-    background-color: #ffc107;
+    background-color: red;
     height: 60px;
     padding: 0px;
     margin: 0;
