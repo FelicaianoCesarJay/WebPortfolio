@@ -10,7 +10,7 @@
 
 body{
     background-image: url(cj.gif);
-    background-repeat: no-repeat;
+    background-image: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -141,7 +141,7 @@ li{
     content: '|';
     position: absolute;
     right: 0;
-    color: red;
+    color: rgb(255, 0, 0);
     width: 100%;
     background-color: black;
     animation: typing 2.5s steps(30) alternate infinite;
